@@ -1,5 +1,7 @@
 # wizcli
 
+![test](https://github.com/redraw/wizcli/actions/workflows/test.yml/badge.svg)
+
 Control your WiZ light from the CLI.
 
 ## Install
@@ -30,4 +32,30 @@ wiz warm
 
 # set RGB color
 wiz rgb 255 40 90
+```
+
+## Help
+```bash
+Usage: wiz [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  -h, --host TEXT                 WiZ bulb host  [env var: WIZ_HOST]
+  -p, --port INTEGER              WiZ bulb port  [env var: WIZ_PORT; default:
+                                  38899]
+  -t, --timeout INTEGER           Timeout in seconds  [env var: WIZ_TIMEOUT;
+                                  default: 5]
+  -v, --verbose
+  --help                          Show this message and exit.
+
+Commands:
+  cold
+  dim
+  get
+  off
+  on
+  rgb
+  switch
+  temp
+  warm
+
 ```
