@@ -26,7 +26,7 @@ def common(
     logging.basicConfig(level=logging.DEBUG if verbose else logging.ERROR)
 
     if not host:
-        logger.info("Missing host.")
+        logger.error("Missing host.")
         raise typer.Abort()
 
     logger.info(f"WiZ {host=} {port=}")
