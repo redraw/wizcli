@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wizcli"
-version = "0.1.5"
+version = "0.1.6"
 description = "control WiZ bulbs from the CLI"
 authors = ["Agustin B <redraw@sdf.org>"]
 readme = "README.md"
